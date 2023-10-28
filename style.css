@@ -46,6 +46,18 @@ body {
     font-family: 'Alumni Sans Collegiate One', sans-serif;
 }
 
+legend {
+    font-size: 1rem;
+    padding: 2%;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+
+
 .contentWrapper {
     width: 60%;
     background-color: rgb(240, 244, 245);
@@ -56,10 +68,24 @@ body {
 form {
     font-size: 0.5rem;
     width: 100%;
+    color: gray;
+    font-weight: 600;
 }
 
 fieldset {
     border-style: none;
+    display: flex;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.formBody {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 5px 3px 3px black;
 }
 
 #odinLogo {
