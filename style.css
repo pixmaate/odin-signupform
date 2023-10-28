@@ -1,3 +1,16 @@
 :root {
     font-size: 24px;
 }
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heroWrapper {
+    background-image: url("./images/palm_trees.jpg");
+    width: clamp(150px, 500px, 750px);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
