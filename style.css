@@ -9,8 +9,30 @@ body {
 
 .heroWrapper {
     background-image: url("./images/palm_trees.jpg");
-    width: clamp(150px, 500px, 750px);
+    width: clamp(150px, 40%, 750px);
     background-position: center;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerText {
+    background-color: rgb(128,128,128, 0.6);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20vh;
+    padding: 2rem;
+}
+
+.contentWrapper {
+    width: 60%;
+    background-color: rgb(240, 244, 245);
+    display: flex;
+    flex-direction: column;
+}
+
+.introText {
+    width: 60%;
+    padding: 2rem;
 }
