@@ -53,12 +53,21 @@ body {
     flex-direction: column;
 }
 
+form {
+    font-size: 0.5rem;
+    width: 100%;
+}
+
+fieldset {
+    border-style: none;
+}
+
 #odinLogo {
     width: 3rem;
 }
 
 .introText {
-    width: 60%;
+    width: 80%;
     padding: 2rem;
     font-size: 1.3rem;
     margin-top: 10%;
